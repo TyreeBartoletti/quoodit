@@ -1,0 +1,42 @@
+{
+  "name": "quoodit",
+  "version": "1.0.0",
+  "description": "Get text records of an ENS address with ease.",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TyreeBartoletti/quoodit.git"
+  },
+  "keywords": [
+    "ethereum",
+    "atque",
+    "blockchain",
+    "eth"
+  ],
+  "author": "LeonelNienow",
+  "license": "MIT",
+  "dependencies": {
+    "@ethersproject/contracts": "^5.4.1",
+    "@ethersproject/providers": "^5.4.3",
+    "idna-uts46-hx": "^3.4.0",
+    "keccak": "^3.0.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.2.5",
+    "@types/keccak": "^3.0.1",
+    "@types/node": "^16.4.14",
+    "c8": "^7.8.0",
+    "esbuild-node-loader": "^0.1.1",
+    "node-fetch": "^2.6.1",
+    "rollup": "^2.56.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.5",
+    "uvu": "^0.5.1"
+  }
+}
